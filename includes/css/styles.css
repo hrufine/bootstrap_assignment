@@ -8,466 +8,414 @@ Updated: August 2013
 Notes:	 Hand coded for Udemy.com
 
 */
-
-
 /* --------------------------------------
    Layout
    -------------------------------------- */
-#features{
-  text-align: center;
-}
-#features img{
-  margin: 0 0 20px;
-}
 
-#inputMessage{
-  margin-bottom: 15px;
+#features {
+    text-align: center;
 }
-
-footer{
-  background: #333;
-  color: #eee;
-  font-size: 11px;
-  padding: 20px;
+#features img {
+    margin: 0 0 20px;
 }
-.panel{
-  margin-right: 0px;
-  margin-left: 0px;
+#inputMessage {
+    margin-bottom: 15px;
 }
-.logo_like_us{
-  width: 25px;
-     height: 25px;
-     border-radius: 10px;
-     margin-top: 5px;
-     margin-left: 2px;
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+.panel {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.logo_like_us {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
 }
 /* --------------------------------------
    Typography
    -------------------------------------- */
-#myModal{
-  padding-right: 600px;
 
-
+#myModal {
+    padding-right: 600px;
 }
-
-body{
-  -webkit-font-smoothing:antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: "PT Sans Narrow",sans-serif;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Fjalla One', sans-serif;
-
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
 }
-.well .page-header{
-  margin-top: 0;
-  text-align: center;
+.well .page-header {
+    margin-top: 0;
+    text-align: center;
 }
-.well .page-header h1{
-  margin-top: 0;
+.well .page-header h1 {
+    margin-top: 0;
 }
-
-ul.unstyled{
-  list-style: none;
-  padding: 0;
+ul.unstyled {
+    list-style: none;
+    padding: 0;
 }
-.future{
-  width: 100%;
-  height: 500px;
-  padding-left: 200px;
-  padding-right: 200px;
+.future {
+    width: 100%;
+    height: 500px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   #searchInput{
-     width: 200px;
 
-   }
-   .navbar-brand{
-     padding: 13px 15px;
-   }
-  .navbar{
-     background: white;
-     height: 90px;
-
-
-   }
-
-   .navbar-brand img{
-     margin-top: -10px;
-   }
-    .nav{
-      margin-left: 300px;
-      margin-top: 15px;
-      font-size: 25px;
-      visibility: visible;
-    }
-    .nav-tabs{
-      margin-left: 0px;
-    }
-
+#searchInput {
+    width: 200px;
+}
+.navbar-brand {
+    padding: 13px 15px;
+}
+.navbar {
+    background: white;
+    height: 90px;
+}
+.navbar-brand img {
+    margin-top: -10px;
+}
+.nav {
+    margin-left: 300px;
+    margin-top: 15px;
+    font-size: 25px;
+    visibility: visible;
+}
+.nav-tabs {
+    margin-left: 0px;
+}
 /* --------------------------------------
     Carousel
    -------------------------------------- */
-#myCarousel{
-     margin-top: 100px;
-     border-radius: 55px 55px 55px 55px;
-     overflow: hidden;
- }
 
- .carousel-caption
- {
-   font-size: 24px;
- }
- .carousel-caption h4
- {
-   font-size: 32px;
- }
-
-#myCarousel .item {height: 400px;}
-#slide1{
-  background: url("../../images/tegra_medium.jpg") top center no-repeat;
+#myCarousel {
+    margin-top: 100px;
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
 }
-#slide2{
-  background: url("../../images/amd_medium.jpg") top center no-repeat;
+.carousel-caption {
+    font-size: 24px;
 }
-#slide3{
-  background: url("../../images/android_medium.jpg") top center no-repeat;
+.carousel-caption h4 {
+    font-size: 32px;
 }
-
-#myCarousel2 .item {height: 500px;}
-#slide11{
-  background: url("../../images/portfolio_android_medium.jpg") top center no-repeat;
+#myCarousel .item {
+    height: 400px;
 }
-#slide21{
-  background: url("../../images/portfolio_windows_medium.jpg") top center no-repeat;
+#slide1 {
+    background: url("../../images/tegra_medium.jpg") top center no-repeat;
 }
-#slide31{
-  background: url("../../images/portfolio_mainframe_medium.jpg") top center no-repeat;
+#slide2 {
+    background: url("../../images/amd_medium.jpg") top center no-repeat;
 }
-
-
+#slide3 {
+    background: url("../../images/android_medium.jpg") top center no-repeat;
+}
+#myCarousel2 .item {
+    height: 500px;
+}
+#slide11 {
+    background: url("../../images/portfolio_android_medium.jpg") top center no-repeat;
+}
+#slide21 {
+    background: url("../../images/portfolio_windows_medium.jpg") top center no-repeat;
+}
+#slide31 {
+    background: url("../../images/portfolio_mainframe_medium.jpg") top center no-repeat;
+}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
 
-
-   .alert{
-     margin-top: 20px;
-     display: none;
-   }
-.well{
-  margin: 20px 0;
+.alert {
+    margin-top: 20px;
+    display: none;
 }
-.tabbable img.thumbnail{
-  margin: 0 20px 10px 0;
+.well {
+    margin: 20px 0;
 }
-.thumbnails{
-  margin: 20px 0;
+.tabbable img.thumbnail {
+    margin: 0 20px 10px 0;
 }
-.thumbnail{
-  position: relative;
+.thumbnails {
+    margin: 20px 0;
 }
-.thumbnail h3{
-  font-size: 16px;
-  margin: 0 0 10px;
-  line-height: 20px;
+.thumbnail {
+    position: relative;
 }
-.thumbnail .price{
-  font-size: 22px;
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  padding: 10px;
+.thumbnail h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 20px;
 }
-.thumbnail .price sup{
-  font-weight: normal;
-  font-size: 12px;
+.thumbnail .price {
+    font-size: 22px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 10px;
 }
-.thumbnail span.glyphicon{
-  margin-right: 10px;
+.thumbnail .price sup {
+    font-weight: normal;
+    font-size: 12px;
+}
+.thumbnail span.glyphicon {
+    margin-right: 10px;
 }
 .title {
     background: #2DCC70;
     color: #FFF;
     margin-top: 20px;
-
     margin-left: -5px;
-
 }
-section h1{
-  font-family: "Fjalla One";
-  font-weight: normal;
-
+section h1 {
+    font-family: "Fjalla One";
+    font-weight: normal;
 }
-.title_container{
-  margin-top: -15px;
-  padding-bottom: 15px;
+.title_container {
+    margin-top: -15px;
+    padding-bottom: 15px;
 }
-.services_row{
-  margin-top: 50px;
-
-
+.services_row {
+    margin-top: 50px;
 }
-.center{
-  text-align: center;
+.center {
+    text-align: center;
 }
 .custom_logo {
     font-size: 75px;
     color: #34495E;
 }
-
-
 }
-.center p{
-  text-align: center;
-  font-size: 12px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+.center p {
+    text-align: center;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-p{
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.achievements{
-  text-align: center;
-  font-family: 'Fjalla One', sans-serif;
+.achievements {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 }
-#tab1{
-  margin-top: 15px;
+#tab1 {
+    margin-top: 15px;
 }
-.img_portfolio
-{
-  height: 250px;
-  width: 250px;
-  padding-top: 20px;
+.img_portfolio {
+    height: 250px;
+    width: 250px;
+    padding-top: 20px;
 }
-.img_portfolio_row2{
-  padding-top: 0px;
+.img_portfolio_row2 {
+    padding-top: 0px;
 }
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
-
 /* Portrait & landscape phone */
+
 @media (max-width: 480px) {
-  .visible-sm{
-    display: block!important;
-  }
- .thumbnail .price{
-   font-size: 14px;
- }
- .thumbnail .price sup{
-   font-size: 10px;
- }
-body{
-  font-size: 10px;
+    .visible-sm {
+        display: block!important;
+    }
+    .thumbnail .price {
+        font-size: 14px;
+    }
+    .thumbnail .price sup {
+        font-size: 10px;
+    }
+    body {
+        font-size: 10px;
+        min-width: 480px;
+        /* suppose you want minimun width of 1000px */
 
-   min-width:480px; /* suppose you want minimun width of 1000px */
-   width: auto !important;  /* Firefox will set width as auto */
-                /* As IE ignores !important it will set width as 1000px; */
-
+        width: auto !important;
+        /* Firefox will set width as auto */
+        /* As IE ignores !important it will set width as 1000px; */
+    }
+    .well h1 {
+        font-size: 13px;
+    }
+    .navbar-nav li {
+        font-size: 10px;
+        text-align: left;
+    }
+    .navbar-nav {
+        margin-left: -10px;
+    }
+    .navbar-brand img {
+        height: 50px;
+        width: 70px;
+    }
+    .navbar-brand img {
+        margin-left: 200px;
+        width: 150px;
+    }
+    .navbar-toggle {
+        float: left;
+    }
+    .row h3 {
+        font-size: 13px;
+    }
+    .row {
+        font-size: 10px;
+    }
+    .nav-tabs {
+        font-size: 10px;
+    }
+    .my-class {
+        background-color: black;
+    }
+    .navbar {
+        background: white;
+    }
+    .navbar-brand img {
+        margin-top: -10px;
+    }
+    .nav {
+        margin-top: 50px;
+        margin-left: -10navbar px;
+        text-align: center;
+        width: 100%;
+        font-size: 10px;
+        visibility: visible;
+    }
 }
-.well h1{
-  font-size: 13px;
-}
-.navbar-nav li{
-  font-size: 10px;
-
-
-  text-align: left;
-}
-.navbar-nav{
-  margin-left: -10px;
-}
-.navbar-brand img{
-  height: 50px;
-
-  width: 70px;
-}
-.navbar-brand img{
-  margin-left: 200px;
-  width: 150px;
-}
-.navbar-toggle{
-  float: left;
-}
-
-
-
-.row h3{
-  font-size: 13px;
-}
-.row {
-  font-size: 10px;
-}
-.nav-tabs{
-  font-size: 10px;
-}
-.my-class{
-  background-color: black;
-
-}
-
-.navbar{
-  background: white;
-
-
-}
-.navbar-brand img{
-  margin-top: -10px;
-
-}
- .nav{
-   margin-top: 50px;
-   margin-left: -10navbar
-   px;
-   text-align: center;
-   width: 100%;
-   font-size: 10px;
-   visibility: visible;
- }
-
-
-}
-
-
 /* Landscape phone to portrait tablet */
+
 @media (max-width: 768px) {
-  #myCarousel .item {height: 310px;}
-  #slide1{
-    background: url("../../images/tegra_small.jpg") top center no-repeat;
-  }
-  #slide2{
-    background: url("../../images/amd_small.jpg") top center no-repeat;
-  }
-  #slide3{
-    background: url("../../images/android_small.jpg") top center no-repeat;
-  }
-  #myCarousel2 .item {height: 500px;}
-  #slide11{
-    background: url("../../images/portfolio_android_small.jpg") top center no-repeat;
-  }
-  #slide21{
-    background: url("../../images/portfolio_windows_small.jpg") top center no-repeat;
-  }
-  #slide31{
-    background: url("../../images/portfolio_mainframe_small.jpg") top center no-repeat;
-  }
-
-
-  .carousel-caption{
-    font-size: 16px;
-  }
-  .carousel-caption h4{
-    font-size: 22px;
-  }
-
-  .visible-sm{
-    display: block!important;
-  }
- .thumbnail .price{
-   font-size: 14px;
- }
- .thumbnail .price sup{
-   font-size: 10px;
- }
-body{
-  font-size: 10px;
+    #myCarousel .item {
+        height: 310px;
+    }
+    #slide1 {
+        background: url("../../images/tegra_small.jpg") top center no-repeat;
+    }
+    #slide2 {
+        background: url("../../images/amd_small.jpg") top center no-repeat;
+    }
+    #slide3 {
+        background: url("../../images/android_small.jpg") top center no-repeat;
+    }
+    #myCarousel2 .item {
+        height: 500px;
+    }
+    #slide11 {
+        background: url("../../images/portfolio_android_small.jpg") top center no-repeat;
+    }
+    #slide21 {
+        background: url("../../images/portfolio_windows_small.jpg") top center no-repeat;
+    }
+    #slide31 {
+        background: url("../../images/portfolio_mainframe_small.jpg") top center no-repeat;
+    }
+    .carousel-caption {
+        font-size: 16px;
+    }
+    .carousel-caption h4 {
+        font-size: 22px;
+    }
+    .visible-sm {
+        display: block!important;
+    }
+    .thumbnail .price {
+        font-size: 14px;
+    }
+    .thumbnail .price sup {
+        font-size: 10px;
+    }
+    body {
+        font-size: 10px;
+    }
+    .well h1 {
+        font-size: 13px;
+    }
+    .navbar-nav {
+        margin-left: -10px;
+        background-image: url("../../images/usb.jpg");
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+    .navbar-brand img {
+        height: 50px;
+        width: 70px;
+    }
+    .navbar-brand img {
+        margin-left: 200px;
+        width: 150px;
+    }
+    .navbar-toggle {
+        float: left;
+    }
+    .row h3 {
+        font-size: 13px;
+    }
+    .row {
+        font-size: 10px;
+    }
+    .nav-tabs {
+        font-size: 10px;
+    }
+    .my-class {
+        background-color: black;
+    }
+    .navbar {
+        background: white;
+    }
+    .navbar-brand img {
+        margin-top: -10px;
+    }
+    .nav {
+        margin-top: 50px;
+        margin-left: -10px;
+        text-align: center;
+        width: 200px;
+        font-size: 10px;
+        visibility: visible;
+    }
+    .navbar-nav > li > a {
+        font-size: 15px;
+        color: black;
+        text-align: left;
+    }
 }
-.well h1{
-  font-size: 13px;
-}
-
-.navbar-nav{
-  margin-left: -10px;
-  background-image: url("../../images/usb.jpg");
-  background-repeat: no-repeat;
-
-  border-radius: 20px;
-
-}
-.navbar-brand img{
-  height: 50px;
-
-  width: 70px;
-}
-.navbar-brand img{
-  margin-left: 200px;
-  width: 150px;
-}
-.navbar-toggle{
-  float: left;
-}
-
-
-
-.row h3{
-  font-size: 13px;
-}
-.row {
-  font-size: 10px;
-}
-.nav-tabs{
-  font-size: 10px;
-}
-.my-class{
-  background-color: black;
-
-}
-
-.navbar{
-  background: white;
-
-
-}
-.navbar-brand img{
-  margin-top: -10px;
-
-}
- .nav{
-   margin-top: 50px;
-   margin-left: -10px;
-
-   text-align: center;
-   width: 200px;
-   font-size: 10px;
-   visibility: visible;
- }
-
- .navbar-nav > li > a{
-   font-size: 15px;
-   color: black;
-   text-align: left;
- }
-
-
-}
-
-
 /* Large desktop */
-@media (min-width: 1200px)
- {
-   #myCarousel .item {height: 500px;}
-   #slide1{
-     background: url("../../images/tegra_large.jpg") top center no-repeat;
-   }
-   #slide2{
-     background: url("../../images/amd_large.jpg") top center no-repeat;
-   }
-   #slide3{
-     background: url("../../images/android_large.jpg") top center no-repeat;
-   }
-   #myCarousel2 .item {height: 500px;}
-   #slide11{
-     background: url("../../images/portfolio_android_large.png") top center no-repeat;
-   }
-   #slide21{
-     background: url("../../images/portfolio_windows_large.jpg") top center no-repeat;
-   }
-   #slide31{
-     background: url("../../images/portfolio_mainframe_large.jpg") top center no-repeat;
-   }
 
-
- }
+@media (min-width: 1200px) {
+    #myCarousel .item {
+        height: 500px;
+    }
+    #slide1 {
+        background: url("../../images/tegra_large.jpg") top center no-repeat;
+    }
+    #slide2 {
+        background: url("../../images/amd_large.jpg") top center no-repeat;
+    }
+    #slide3 {
+        background: url("../../images/android_large.jpg") top center no-repeat;
+    }
+    #myCarousel2 .item {
+        height: 500px;
+    }
+    #slide11 {
+        background: url("../../images/portfolio_android_large.png") top center no-repeat;
+    }
+    #slide21 {
+        background: url("../../images/portfolio_windows_large.jpg") top center no-repeat;
+    }
+    #slide31 {
+        background: url("../../images/portfolio_mainframe_large.jpg") top center no-repeat;
+    }
+}
 /*---------------experiment -------------*/
