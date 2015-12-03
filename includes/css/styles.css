@@ -191,7 +191,10 @@ section h1 {
     margin-top: 50px;
 }
 .center {
-    text-align: center;
+    text-align: center; ;
+}
+.custom_justify{
+  text-align: justify;
 }
 .custom_logo {
     font-size: 75px;
@@ -220,6 +223,10 @@ p {
 }
 .img_portfolio_row2 {
     padding-top: 0px;
+}
+
+.tab_p{
+  font-size: 14px;
 }
 /* --------------------------------------
    Media Queries
